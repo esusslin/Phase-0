@@ -1,3 +1,6 @@
+![Alt text](imgs/site-map.png)
+
+
 What are the 6 Phases of Web Design?
 
 1) Information gathering - this is basically the initial brainstorming about period where the purpose and goals of the website are established.  What are the goals of this website? Who is the target user population?  What does this website intend to provide and to whom?
@@ -44,7 +47,6 @@ Which parts of the challenge did you find tedious?
 
 * I suppose reading through the seemingly endless amount of information and websites about UX - I will need to spend time familiarizing myself with these websites.
 
-![Alt text](imgs/site-map.png)
 
 
 
