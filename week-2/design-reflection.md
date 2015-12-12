@@ -44,7 +44,7 @@ Which parts of the challenge did you find tedious?
 
 * I suppose reading through the seemingly endless amount of information and websites about UX - I will need to spend time familiarizing myself with these websites.
 
-![Alt text](../imgs/site-map.PNG)
+![Alt text](imgs/site-map.png)
 
 
 
