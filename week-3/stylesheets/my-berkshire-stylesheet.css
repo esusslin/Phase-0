@@ -17,7 +17,7 @@ header { font-weight: bold;
 }
 
 header h1 {
-  font-size: 2em;
+  font-size: 1em;
 }
 
 header h2 {
@@ -30,12 +30,27 @@ header p {
 
 
 
-div { display: inline-block
+.left {
+  float: left;
+  width: 45%;
+  margin: auto auto 20px 5%;
 }
 
-li p { font-size: .5em;
+.right {
+  float: right;
+  width: 50%;
+  margin: auto auto 20px auto;
+}
+
+li {
+  line-height: 1em;
+  margin-bottom: 1.75em;
+}
+
+li p { 
+      margin-top: .5em;
+       font-size: .5em;
        color: #000080;
-  
 }
 
 .big {
@@ -49,8 +64,34 @@ li p { font-size: .5em;
 .geico-image {
 				font-size: .5em;
 				text-align: center;
+        line-height: .5;
 }
+
 
 .pre-footer	{font-size: .6em;}
 
 .bold {font-weight: bold}
+
+footer {
+  line-height: .5;
+  position: absolute;
+  clear: both;
+}
+​
+section {
+  position: relative;
+  clear: both;
+}
+​
+​
+.copyright {
+  font-size: .6em ;
+}
+​
+.h-line {
+  width: 100%;
+  border-top: 1px solid black;
+  clear: both;
+}
+
+
