@@ -94,4 +94,23 @@ section {
   clear: both;
 }
 
+<!-- What is important to know when linking an external file (like a stylesheet) to an HTML file?
 
+* Mostly that the relative path MUST be precise, especially if the 2 files are in different directories.
+
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+* first we used display: inline the the <div> selector which seemed to alighn the 2 lists adequately.  Later on we simply used FLOAT to push one column to the right and one to the left.  All considered it was fairly simple positioning.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+
+* font-size, font-color, font-weight, 
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+* We used a lot of IDs for all of the <div>s in our HTML mostly for positioning and font-sizing.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+CSS obviously had greater capacities to make sweeping changes while the HTML was obviously very cluttered on the actual code base.  The font sizing was much simpler with the HTML, however.
