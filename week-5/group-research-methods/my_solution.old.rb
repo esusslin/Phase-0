@@ -44,10 +44,8 @@ def my_hash_modification_method!(source, thing_to_modify)
 
 
 # Person 3
-#def my_array_sorting_method(source)
-  #source.map!{ |ele| ele.to_s}.sort 
- def my_array_sorting_method(source)
-  source.sort_by {|x| x.to_s }
+def my_array_sorting_method(source)
+  source.map!{ |ele| ele.to_s}.sort 
 end
 
 def my_hash_sorting_method(source)
@@ -98,19 +96,13 @@ end
 # Release 1: Identify and describe the Ruby method you implemented. Teach your
 # accountability group how to use the methods.
 #
-# Hi all!  I identified the numbers in the array for addition using the .map function, 
-  #and in the event that a number was an integer (is_i?) I added the input number to each integer.
-  # .map uniquely evaluates each element, and in this case i used it to ask if each element was an 
-  # integer to which i applied the addition.
 #
-  # for the hash method i relied on the old handy .each method which had to access the KEY element
-  # to amend the values associated with each
+#
+
 
 # Release 3: Reflect!
 # What did you learn about researching and explaining your research to others?
 #
-# That working together is far easier than working alone!  Also, there are so many methods that it is worth finding
-  # out how certain individuals applied certain needs - identified during psuedocoding - to their arrival
-  # at a method on ruby docs.
+#
 #
 #
