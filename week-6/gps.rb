@@ -1,8 +1,8 @@
 # Your Names
-# 1)
-# 2)
+# 1) Emmet
+# 2) Ian
 
-# We spent [#] hours on this challenge.
+# We spent [1] hours on this challenge.
 
 # Bakery Serving Size portion calculator.
 
