@@ -1,4 +1,4 @@
-//PERSON #3  - GROUP #2
+// //PERSON #3  - GROUP #2
 
 var list = [4,5,6,7,9]
 
@@ -12,11 +12,11 @@ var sum = function(array) {
 
 console.log(sum(list))
 
-//////STORY 2
+// //////STORY 2
 
 var list = [4,5,6,7,9]
 
-var sum = function(array) {
+var mean = function(array) {
   var count = 0;
   var length = array.length
   for (var i = 0; i < length; i++){
@@ -25,21 +25,28 @@ var sum = function(array) {
     return count / length;  
 }
 
-console.log(sum(list))
+console.log(mean(list))
 
 
 // //////STORY 3
 
 
-var list = [4,5,6,7,9]
+var list = [4,5,6,7,9,10]
 
-var sum = function(array) {
-  var count = 0;
-  var length = array.length
-  for (var i = 0; i < length; i++){
-    count += array[i];
+var med = function(array) {
+  
+    var length = array.length
+    var mid = Math.floor(length / 2)
+    var midd = mid + 1
+    
+    array.sort(function(a, b){return a - b;});
+    
+    if (length % 2 != 0) {
+      return array[mid]}
+      else {
+      return (array[mid] + array[midd] / 2)}
+      
 }
-    return count / 2;  
-}
+    
 
-console.log(sum(list))
+ console.log(med(list));
