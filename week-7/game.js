@@ -1,28 +1,4 @@
- // Design Basic Game Solo Challenge
-
-// This is a solo challenge
-
-// Your mission description:
-// Overall mission: to create a casino with multiple games and players
-// Goals: to create multiple players 		
-// Characters: DiamondJim, MarcoVegas, 
-// Objects: 
-//    *
-// Functions: slot machine: rotates 3 arrays of various numbers
-				* accepts bets
-				* based on matches, returns money
-
-// Pseudocode
-// 3 cowboy players are established each with their own purse
-// 
-//
-//
-//
-
-// Initial Code
-//
-//
- // Design Basic Game Solo Challenge
+// Design Basic Game Solo Challenge
 
 // This is a solo challenge
 
@@ -211,8 +187,22 @@ console.log("The player wins $" + lucky7s(diamondJim.bet))
 
 // Reflection
 //
-//
-//
+//What was the most difficult part of this challenge?
+// * conditional looping syntax with Javascript after weeks of ruby worksWhat did you learn about creating objects and functions that interact with one another?
+// 
+// Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do they work?
+// * i did not - i spent most of my time trying to effectively loop each PLAYER through the slot machine itself and return their winnings to the purse
+// for future bets.  I would be interested in some feedback as to how to do this effectively.  I would like each player to bet continual PERCENTAGES of their purse
+// and have winnings or losings automatically update their moneyCount stashes - how might I go about delivering this result and / or looping
+// each player through the slot machine game 100x or until they lose all of their money?d
+
+// How can you access and manipulate properties of objects?
+// accessing was east - i called the entire game with the 'bet' value of each player.  HOWEVER i was unable to effectively manitpulate 
+// the property values IE: the purse of each player with their winnings.  
+
+// ***** I REALLY WANT TO FIGURE THIS OUT:  ultimately, beyond a simple slot machine game I'd like to design an algorithm of sorts that determines
+//  the the success of 3 different betting strategies: aggressive, moderate, and conservative.  To do this i need the nested functions within Lucky7s 
+// to amend each character's moneyCount property with the winnings for a successful or advantagious invocation of the slot machine.
 //
 //
 //
