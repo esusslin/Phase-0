@@ -96,7 +96,7 @@ console.log(michaelPhelps.name + " " + michaelPhelps.sport + " " + michaelPhelps
 
   // iteration was bolstered, as was object manipulation as well as constructor initiation
 
-// What are constructor functions?
+// What are constructor functionss?
   // it creates a new object, it assigns the property of a object and establishes the prototype of object
 
 // How are constructors different from Ruby classes (in your research)?
