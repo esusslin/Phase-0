@@ -91,3 +91,14 @@ console.log(michaelPhelps.name + " " + michaelPhelps.sport + " " + michaelPhelps
 
 
 // Reflection
+
+// What JavaScript knowledge did you solidify in this challenge?
+
+  // iteration was bolstered, as was object manipulation as well as constructor initiation
+
+// What are constructor functionss?
+  // it creates a new object, it assigns the property of a object and establishes the prototype of object
+
+// How are constructors different from Ruby classes (in your research)?
+  // constructors are functions that create a new instance of an object or initializes it, where as a class provides the framework for 
+   // each instance of the class - it is not itself a method or 'function.'
