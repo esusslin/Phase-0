@@ -89,7 +89,14 @@ console.log(gradebook.getAverage("Elizabeth"))
 // __________________________________________
 // Reflect
 
+// What did you learn about adding functions to objects?
+// * they can be helpful and useful but wordy when trying to explain each!
 
+// How did you iterate over nested arrays in JavaScript?
+//* they had to be uniquely accessed and simple iteration was applied with the proper JS syntax
+
+// Were there any new methods you were able to incorporate? If so, what were they and how did they work?
+// .reduce was used for addition - i can see this being increasingly useful
 
 
 
