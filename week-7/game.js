@@ -168,7 +168,6 @@ console.log("The player wins $" + lucky7s(diamondJim.bet))
 
 
 
-
 // Reflection
 //
 //
