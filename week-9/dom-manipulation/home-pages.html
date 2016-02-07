@@ -1,0 +1,57 @@
+<html>
+<head>
+   <link rel="stylesheet" type="text/css" href="C:\Users\Akeem\Documents\dbc_curriculum\phase-0\week-9\dom-manipulation\home_page.css">
+ <title>Manipulate the DOM</title>
+</head>
+<body>
+ 
+ <div id="release-0">
+   <p class="release-4"> Here is some text, add a class "done" to the parent div</p>
+   <script "text/javascript"> document.getElementById("release-0").className = "done"; </script>
+ </div>
+
+ <div id="release-1">
+   <p>remove the #release-1 div</p>
+   <script "text/javascript"> document.getElementById("release-0").className = "done"; </script>
+ </div>
+   
+ <h1>Change this text to finish release 2</h1>
+ <script "text/javascript"> document.getElementsByTagName("h1")[0].innerHTML = "I completed release 2";</script>
+ <div id="release-3">
+   <p class="release-4"> add CSS to this div</p>
+   <script "text/javascript"> document.getElementById("release-3").style.backgroundColor = "#955251 "; </script>
+   <!--<script "text/javascript"> document.getElementById("release-3").backgroundColor.property = #955251 ;</script>-->
+ </div>
+
+ <script "text/javascript">
+ var releaseFourInstances = document.getElementsByClassName('release-4');
+
+ for (var i = 0; i < releaseFourInstances.length; i++) {
+   var releaseFourInstance = releaseFourInstances[i];
+   releaseFourInstance.style.fontSize = "2em";
+ }
+ </script>
+
+ <template id="hidden">
+   <div>
+     <h1> Congrats! You finished the challenge.</h1>
+     <img src="http://media.giphy.com/media/2UpzC3iPenf44/giphy.gif">
+   </div>
+ </template>
+ 
+ <script "text/javascript">
+   var tmpl = document.getElementById('hidden');
+   document.body.appendChild(tmpl.content.cloneNode(true));
+ </script>
+ 
+<script type="text/javascript" src="home_page.js"></script>
+</body>
+</html>
+
+<!-- Add your reflection here -->
+<!-- What did you learn about the DOM?
+Its a platform for live website interaction and manipulation!  
+Also that HTML nodes can be called and manipulated like arrays - which will be huge i can tell..
+
+What are some useful methods to use to manipulate the DOM?
+calling nodes/tags by their array index numbers! -->
